@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+<title id="title">Haridev Nambood — Electrical Engineering</title>
+<desc id="desc">Animated blue and teal circuit traces surrounding a chip. Embedded systems, robotics, and controls. University of Houston.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071522"/><stop offset=".55" stop-color="#102d4b"/><stop offset="1" stop-color="#073c42"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#245ce0" stop-opacity=".32"/><stop offset="1" stop-color="#245ce0" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#79b8dc" opacity=".12"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+.trace{fill:none;stroke:#2b647b;stroke-width:2}.signal{fill:none;stroke:#65e7db;stroke-width:2.5;stroke-dasharray:16 350;animation:flow 6s linear infinite}.spark{animation:blink 3s ease-in-out infinite}.ring{transform-origin:500px 66px;animation:orbit 24s linear infinite}@keyframes flow{to{stroke-dashoffset:-366}}@keyframes blink{50%{opacity:.35}}@keyframes orbit{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.signal,.spark,.ring{animation:none}}
+</style>
+<rect width="1000" height="310" rx="20" fill="url(#bg)"/>
+<rect width="1000" height="310" rx="20" fill="url(#grid)"/>
+<ellipse cx="500" cy="120" rx="320" ry="190" fill="url(#halo)"/>
+<g class="trace">
+<path id="a" d="M0 65H175l45 45h95l35 35h35"/><path id="b" d="M0 225h120l55-55h140l35-25h35"/>
+<path id="c" d="M1000 65H825l-45 45h-95l-35 35h-35"/><path id="d" d="M1000 225H880l-55-55H685l-35-25h-35"/>
+<path d="M55 0v30h210l45 45h80M55 310v-40h160l50-50h80M945 0v30H735l-45 45h-80M945 310v-40H785l-50-50h-80"/>
+</g>
+<g class="signal"><path d="M0 65H175l45 45h95l35 35h35"/><path d="M1000 225H880l-55-55H685l-35-25h-35" style="animation-delay:-3s"/></g>
+<g fill="#65e7db" class="spark"><circle cx="175" cy="65" r="4"/><circle cx="825" cy="65" r="4"/><circle cx="175" cy="170" r="4"/><circle cx="825" cy="170" r="4"/></g>
+<circle class="ring" cx="500" cy="66" r="38" fill="none" stroke="#61dacf" stroke-opacity=".5" stroke-dasharray="45 15 3 15"/>
+<rect x="480" y="46" width="40" height="40" rx="8" fill="#102941" stroke="#65e7db" stroke-width="2"/>
+<path d="M486 38v8m9-8v8m10-8v8m9-8v8m-28 40v8m9-8v8m10-8v8m9-8v8m-42-42h8m-8 10h8m-8 10h8m40-20h8m-8 10h8m-8 10h8" stroke="#65e7db" stroke-width="2"/>
+<text x="500" y="72" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700">HN</text>
+<text x="500" y="154" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1">Haridev Nambood</text>
+<text x="500" y="188" text-anchor="middle" fill="#a9c9e8" font-family="Arial,sans-serif" font-size="16">ELECTRICAL ENGINEERING · UNIVERSITY OF HOUSTON</text>
+<g font-family="monospace" font-size="13" text-anchor="middle" fill="#8cf0e5">
+<rect x="248" y="215" width="175" height="30" rx="15" fill="#143b50" stroke="#2a6c7b"/><text x="335" y="235">EMBEDDED SYSTEMS</text>
+<rect x="436" y="215" width="128" height="30" rx="15" fill="#15365c" stroke="#3866a1"/><text x="500" y="235">ROBOTICS</text>
+<rect x="577" y="215" width="175" height="30" rx="15" fill="#143b50" stroke="#2a6c7b"/><text x="665" y="235">CONTROLS</text>
+</g>
+<text x="500" y="280" text-anchor="middle" fill="#87a7bf" font-family="monospace" font-size="12" letter-spacing="2">SENSE → THINK → MOVE</text>
+<rect x="1" y="1" width="998" height="308" rx="20" fill="none" stroke="#34718a" stroke-opacity=".5"/>
+</svg>
