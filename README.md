@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" alt="Haridev Nambood — Electrical Engineering" src="https://capsule-render.vercel.app/api?type=waving&color=0:17324c,55:245ce0,100:087c78&height=210&section=header&text=Haridev%20Nambood&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Electrical%20Engineering%20%7C%20University%20of%20Houston&descSize=16&descAlignY=58" />
+<img width="100%" alt="Haridev Nambood — Electrical Engineering" src="https://raw.githubusercontent.com/haribood/haribood/main/circuit-header.svg" />
 
-### Ideas into circuits. Circuits into motion.
+### ⚡ Ideas into circuits. Circuits into motion.
 
 <img alt="Embedded systems, robotics, and controls" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=1200&color=418ADE&center=true&vCenter=true&width=650&lines=Embedded+systems+%E2%80%A2+Robotics+%E2%80%A2+Controls;Hardware+that+senses%2C+thinks%2C+and+moves" />
 
