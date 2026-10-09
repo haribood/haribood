@@ -50,17 +50,15 @@ I’m an electrical engineering student at the **University of Houston**, workin
 <tr>
 <td width="50%" valign="top">
 <h3>Micromouse</h3>
-<img src="https://raw.githubusercontent.com/haribood/haribood.github.io/main/micromouse1.jpeg" width="100%" alt="My autonomous Micromouse robot" />
+<a href="https://github.com/haribood/micromouse-autonomous-robot"><img src="https://raw.githubusercontent.com/haribood/haribood.github.io/main/micromouse1.jpeg" width="100%" alt="My autonomous Micromouse robot" /></a>
 <p>An ESP32-S3 maze-solving robot with IR sensors, encoders, IMU feedback, and maze mapping.</p>
 <p><strong>500 Hz closed-loop motion control</strong></p>
-<a href="https://github.com/haribood/micromouse-autonomous-robot">View project</a>
 </td>
 <td width="50%" valign="top">
 <h3>Magnetic microswimmers</h3>
-<img src="https://raw.githubusercontent.com/haribood/haribood.github.io/main/magnetic%20manipulator%201.png" width="100%" alt="Magnetic manipulator research setup" />
+<a href="https://github.com/haribood/magnetic-manipulator-microswimmers"><img src="https://raw.githubusercontent.com/haribood/haribood.github.io/main/magnetic%20manipulator%201.png" width="100%" alt="Magnetic manipulator research setup" /></a>
 <p>Research on rotating magnetic fields, PID feedback, and dual-camera tracking for microswimmer actuation.</p>
 <p><strong>LabVIEW · OpenCV · three-axis magnetic fields</strong></p>
-<a href="https://github.com/haribood/magnetic-manipulator-microswimmers">View research</a>
 </td>
 </tr>
 </table>
